@@ -24,7 +24,7 @@ public class Validation {
 
 
 if(randomNumber==1)
-System.out.println("sad");
+System.out.println("sad,");
 if(randomNumber==2)
 System.out.println("squeaky");
 if(randomNumber==3)
