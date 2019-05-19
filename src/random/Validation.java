@@ -32,7 +32,7 @@ System.out.println("chair");
 if(randomNumber==4)
 System.out.println("died");
 		// 2. Repeat all the code above 10 times
-		
+		for Loop(10)
 		// 3. Find someone to test out your program. They will like it :)
 }
 }
