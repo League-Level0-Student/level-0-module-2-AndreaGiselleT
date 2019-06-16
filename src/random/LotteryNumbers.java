@@ -13,6 +13,6 @@ public static void main(String[] args) {
 	int random6 =new Random().nextInt(6);
 	int random8 =new Random().nextInt(8);
 	int random9=new Random().nextInt(9);
-	JOptionPane.showMessageDialog(null,  random4+" random5+" random6+" random8+" random9+");
+	JOptionPane.showMessageDialog(null," " +random4+ random5+ random6 + random8+ random9);
 }
 }
