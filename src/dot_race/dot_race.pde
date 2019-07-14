@@ -15,9 +15,11 @@
     }
     //5. Make your dot move faster
     //  (you have to figure out what part of your code to change)
-    
+      
     //2. Draw an ellipse of height and width 10. Make sure to use your variable for the X position.
      ellipse(x,10,10,10);
+     if(x>800){ playSound();
+     }
     //6. Use the playSound() method to play a ding when your dot crosses the finish line. 
     }
 
@@ -26,8 +28,9 @@
     void playSound() {
     if (!soundPlayed) {
         Minim minim = new Minim(this);
-        AudioSample sound = minim.loadSample("ding.wav");
+        AudioSample sound = minim.loadSample("meow.wav");
         sound.trigger();
         soundPlayed = true;
     }
 }
+    
