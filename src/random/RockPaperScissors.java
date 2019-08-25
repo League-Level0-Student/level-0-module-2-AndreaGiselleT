@@ -1,8 +1,7 @@
 //    Copyright (c) The League of Amazing Programmers 2013-2017
 //    Level 0
-
 package random;
-
+if()
 import java.awt.Dimension;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -117,4 +116,3 @@ public class RockPaperScissors extends JPanel implements ActionListener{
             return "";
         }
     }
-    
